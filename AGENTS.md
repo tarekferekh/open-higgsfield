@@ -20,3 +20,7 @@ Evidence priority:
 5. Inference, clearly labeled as a proposal.
 
 Do not publish, schedule, message leads, or spend money without explicit approval. Keep client identities and results private unless documented consent is available. For fitness, nutrition, and health content, avoid diagnosis, guaranteed outcomes, unsafe protocols, fabricated evidence, or exaggerated transformation claims.
+
+## Instagram working memory
+
+For Instagram work, use only verified evidence and the project files under `marketing/instagram/`. Treat `voice.md`, `plan.md`, `log.md`, and `swipe.md` as durable working memory. Do not invent missing brand facts.

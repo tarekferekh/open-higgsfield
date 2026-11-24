@@ -27,3 +27,20 @@ These repositories are research inputs, not automatic dependencies. Do not execu
 3. Create production-ready content from the approved identity.
 4. Measure outcomes and update the next experiment.
 5. Preserve only verified, durable decisions in the brand profile.
+
+## Vetted third-party project skills
+
+| Skill | FityZone use |
+| --- | --- |
+| `ig-audit` | Diagnose reach, retention, saves, sends, and follows from actual Insights. |
+| `ig-profile` | Improve profile conversion after reach is earned. |
+| `ig-plan` | Build an evidence-based weekly publishing plan. |
+| `ig-caption` | Draft concise Instagram captions and CTAs. |
+| `ig-carousel` | Structure educational carousel posts. |
+| `ig-reel` | Write hooks, beats, and scripts for short Reels. |
+| `ig-repurpose` | Turn one verified idea into multiple formats. |
+| `ig-human` | Detect and reduce generic AI wording. |
+| `transcribe` | Transcribe and optionally diarize audio/video before analysis. |
+| `higgsfield-generate` | Generate FityZone AI video/image/UGC creative with Higgsfield. |
+
+Runtime notes: `transcribe` needs Python, the OpenAI SDK, and `OPENAI_API_KEY`. `higgsfield-generate` needs the Higgsfield CLI and authenticated access. Never commit credentials.
