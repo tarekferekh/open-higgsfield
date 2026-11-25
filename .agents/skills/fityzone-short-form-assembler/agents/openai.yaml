@@ -1,0 +1,4 @@
+interface:
+  display_name: "FityZone Short-Form Assembler"
+  short_description: "Assemble polished vertical FityZone videos"
+  default_prompt: "Use $fityzone-short-form-assembler to assemble a production-ready vertical Reel from my approved assets."

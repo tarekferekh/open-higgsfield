@@ -1,0 +1,4 @@
+interface:
+  display_name: "FityZone Testimonial Consent Manager"
+  short_description: "Manage approved client proof and consent"
+  default_prompt: "Use $fityzone-testimonial-consent-manager to organize this client transformation and verify its allowed usage."

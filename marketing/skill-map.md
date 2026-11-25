@@ -1,8 +1,9 @@
 # FityZone marketing skill map
 
-Last reviewed: 2026-11-24
+Last reviewed: 2026-11-25
 
-The project uses four focused skills instead of a large overlapping third-party pack.
+The project uses focused FityZone skills plus a small vetted Instagram toolkit
+instead of importing a large overlapping third-party pack.
 
 | Need | Project skill | Primary outputs |
 |---|---|---|
@@ -10,6 +11,11 @@ The project uses four focused skills instead of a large overlapping third-party 
 | Creative content and scripts | `fityzone-content-engine` | Posts, carousels, captions, Stories, Reel scripts, prompts, calendars |
 | Audio and video understanding | `fityzone-video-intelligence` | Transcripts, subtitles, frame and shot analysis, retention reviews, reverse briefs |
 | Strategy and operations | `fityzone-marketing-operator` | Audits, campaigns, experiments, analytics, lead and publishing workflows |
+| Performance reporting | `fityzone-content-performance-reporter` | Normalized metrics, funnel diagnosis, experiment readouts, next tests |
+| Nutrition evidence | `fityzone-nutrition-evidence-checker` | Claim verification, evidence strength, safer public wording, escalation flags |
+| Short-form assembly | `fityzone-short-form-assembler` | Vertical timelines, captions, audio, branded exports, technical QA |
+| Testimonial consent | `fityzone-testimonial-consent-manager` | Permission records, privacy-safe proof, usage scope, expiry and withdrawal handling |
+| Trend and competitor research | `fityzone-trend-competitor-researcher` | Dated competitor evidence, outlier patterns, original FityZone opportunities |
 
 ## Vetted reference patterns
 
@@ -40,7 +46,15 @@ These repositories are research inputs, not automatic dependencies. Do not execu
 | `ig-reel` | Write hooks, beats, and scripts for short Reels. |
 | `ig-repurpose` | Turn one verified idea into multiple formats. |
 | `ig-human` | Detect and reduce generic AI wording. |
+| `ig-story` | Build daily Story sequences, stickers, and owner-approved DM entry points. |
+| `ig-viral` | Research current outlier Reels and maintain the attributed swipe file. |
+| `ig-comment` | Draft specific, non-promotional comments for manual posting. |
+| `ig-reply` | Triage comments on FityZone posts and draft owner-approved replies. |
+| `ig-dm` | Draft permission-based DMs, collaboration pitches, and limited follow-ups. |
 | `transcribe` | Transcribe and optionally diarize audio/video before analysis. |
 | `higgsfield-generate` | Generate FityZone AI video/image/UGC creative with Higgsfield. |
 
-Runtime notes: `transcribe` needs Python, the OpenAI SDK, and `OPENAI_API_KEY`. `higgsfield-generate` needs the Higgsfield CLI and authenticated access. Never commit credentials.
+Runtime notes: `ig-reel`, `ig-human`, and `ig-viral` include optional Python
+helpers and need Python 3 to run them. `transcribe` needs Python, the OpenAI
+SDK, and `OPENAI_API_KEY`. `higgsfield-generate` needs the Higgsfield CLI and
+authenticated access. Never commit credentials.
