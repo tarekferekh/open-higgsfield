@@ -1,0 +1,4 @@
+interface:
+  display_name: "FityZone Content Performance Reporter"
+  short_description: "Turn Instagram exports into decisions"
+  default_prompt: "Use $fityzone-content-performance-reporter to analyze this Instagram or Metricool export and recommend the next tests."

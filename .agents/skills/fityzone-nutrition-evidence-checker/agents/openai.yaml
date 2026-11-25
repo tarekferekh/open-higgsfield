@@ -1,0 +1,4 @@
+interface:
+  display_name: "FityZone Nutrition Evidence Checker"
+  short_description: "Verify fitness and nutrition claims safely"
+  default_prompt: "Use $fityzone-nutrition-evidence-checker to verify these nutrition claims and document the evidence strength."

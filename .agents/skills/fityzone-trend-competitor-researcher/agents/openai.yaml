@@ -1,0 +1,4 @@
+interface:
+  display_name: "FityZone Trend and Competitor Researcher"
+  short_description: "Research useful fitness content patterns"
+  default_prompt: "Use $fityzone-trend-competitor-researcher to research current fitness content patterns for FityZone without copying creators."
